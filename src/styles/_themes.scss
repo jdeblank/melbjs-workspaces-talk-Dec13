@@ -1,0 +1,28 @@
+
+// BSOD theme
+.BSOD {
+	background: #0000AA url('../images/BSOD.png') no-repeat center center;
+	.bespoke-active {
+		display: none;
+	}
+}
+
+
+// Ben Schwarz theme
+.schwarz {
+	background: black;
+
+	.bespoke-active {
+		background: #111;
+		color: black;
+	}
+
+}
+
+// Glen Maddern theme
+.maddern {
+	background: url('../images/cat-cart.gif');
+	background-size: 100%;
+
+	// TODO load moar giffffssssss
+}

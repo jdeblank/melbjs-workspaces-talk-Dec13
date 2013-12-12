@@ -1,0 +1,110 @@
+!!! 5
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title Meet Chrome, Your New IDE
+
+    link(rel='stylesheet', type='text/css', href='styles/main.css')
+
+  body
+
+    article
+
+      section
+        h1 Meet Chrome, Your New IDE
+      
+      section
+        h2 This is me
+        p Josh de Blank - FED @ Cotton On Group
+        p @joshwins
+
+      section
+        img(src='images/smart-bunny.gif')
+
+      section
+        h2 Chrome an IDE?
+        p An IDE normally consists of:
+        ul
+          li a debugger,
+          li code completion features,
+          li build automation tools ... <a href="https://github.com/petethepig/devtools-terminal">sorta</a>,
+          li a source code editor ... ?
+
+      section
+        h2 Demo time
+
+      section
+        h3 What just happened
+        ul
+          li after setting up a workspace in Dev Tools settings you can inspect an element and alter its css properties
+          li these changes will persist immediately to disk
+          li you get the benefit of immediate feedback and not having to repeat the changes again in your editor
+
+      section
+        h2 Lets try something a little more complicated
+        ul
+          li precompiled CSS  with sourcemaps
+          li guess we should try some JS
+          li perhaps some Jade
+
+      section
+        h3 What just happened
+        ul
+          li using sourcemaps allows you to Cmd-click on a sass property or value and it will take you directly to the specific line or variable in your sass in the sources panel
+          li Cmd-s after editing within the sources panel will persist those changes to disk.
+          li You can edit anything within your workspace directory: sass, css, js, html, jade, etc
+
+      section
+        h2 Remote Debugging
+        ul
+          li enable Developer Options in Android settings
+          li check USB debugging in Developer Options
+          li Plug in USB
+          li Settings > Tools > Inspect devices (chrome://inspect/#devices)
+          li Connect and Accept prompt on device
+          li Inspect project.
+          li Screencasting. (needs Chrome Beta (M32))
+
+      section
+        h2 So Chrome as an IDE
+        ul
+          li Maybe stretching it a little bit.
+          li But the dev iteration cycle is tightening.
+          li Lots more features now available (in Canary):
+            ul
+              li Remote debugging
+              li Screencasting
+              li Device and feature emulation
+
+      section
+        h3 Further reading:
+        p 
+          <a href="http://remysharp.com/2012/12/21/my-workflow-never-having-to-leave-devtools/">My Workflow: Never having to leave DevTools - Remy Sharp</a>
+
+        p
+          <a href="https://medium.com/what-i-learned-building/b4daab987fb0">Getting started with CSS sourcemaps and in-browser Sass editing</a>
+
+        p
+          <a href="http://www.html5rocks.com/en/tutorials/developertools/revolutions2013/">Chrome DevTools Revolutions 2013</a>
+
+        p
+          <a href="http://www.html5rocks.com/en/tutorials/developertools/mobile/">Chrome DevTools for Mobile: Screencast and Emulation</a>
+
+        p
+          <a href="https://developers.google.com/chrome-developer-tools/docs/mobile-emulation">Mobile emulation</a>
+        
+        p  
+          <a href="https://developers.google.com/chrome-developer-tools/docs/remote-debugging">Remote debugging</a>
+
+      section
+        h2 Thanks!
+
+    script(src='bower_components/bespoke.js/dist/bespoke.min.js')
+    script(src='bower_components/bespoke-bullets/dist/bespoke-bullets.min.js')
+    script(src='bower_components/bespoke-progress/dist/bespoke-progress.min.js')
+    script(src='bower_components/bespoke-state/dist/bespoke-state.min.js')
+    script(src='bower_components/bespoke-hash/dist/bespoke-hash.min.js')
+    script(src='bower_components/bespoke-scale/dist/bespoke-scale.min.js')
+    script(src='bower_components/prism/prism.js')
+    script(src='scripts/main.js')
